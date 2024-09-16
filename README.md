@@ -1,4 +1,4 @@
-#Gen AI GPT-2 with Leaflet Map
+# Gen AI GPT-2 with Leaflet Map
 
 Overview
 This project combines the GPT-2 language model from Hugging Face with Leaflet, a powerful open-source JavaScript library for interactive maps. The application allows users to generate text based on prompts and visualize the output on a Leaflet map.
