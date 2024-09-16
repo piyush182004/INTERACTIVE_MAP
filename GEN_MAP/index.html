@@ -178,7 +178,7 @@
   DD: { name: 'Daman and Diu', center: [20.4167, 72.8333], options: ['Heritage', 'Culture'] },
   LA: { name: 'Ladakh', center: [34.1526, 77.5774], options: ['Heritage', 'Culture'] },
   JK: { name: 'Jammu and Kashmir', center: [33.7782, 76.5762], options: ['Heritage', 'Culture'] },
-  Kalyani: { name: 'Kalyani Town', center: [22.9664, 88.5622], options: ['Heritage', 'Culture'] },
+
   Kolkata: { name: 'Kolkata', center: [22.5726, 88.3639], options: ['Heritage', 'Culture'] }
 };
 
@@ -213,7 +213,7 @@
         const response = await fetch('https://api-inference.huggingface.co/models/gpt2', {
           method: 'POST',
           headers: {
-            'Authorization': 'Bearer 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',
+            'Authorization': 'Bearer YOURAPI_FROMHUGGINGFACE',
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({ inputs: prompt })
